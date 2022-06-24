@@ -1,4 +1,4 @@
-![Feriekolonien logo](/apps/web/public/logo.png)
+![Playstation Plus logo](/apps/web/public/logo.png)
 
 This is the (new!) main repo for [Feriekolonien.no](https://feriekolonien.no)
 and it's content.
@@ -9,11 +9,11 @@ This turborepo uses [PNPM](https://pnpm.io/installation) as a package manager. I
 
 ### Apps and Packages
 
-- `apps/web`: A [Next.js](https://nextjs.org) app that's deployed to [feriekolonien.no](https://feriekolonien.no) with Vercel.
-- `apps/studio`: A [Sanity studio](https://sanity.io) that's deployed to [studio.feriekolonien.no](https://studio.feriekolonien.no) with Vercel.
-- `ui`: a stub React component library not currently used in any of the apps.
-- `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+-   `apps/web`: A [Next.js](https://nextjs.org) app that's deployed to [feriekolonien.no](https://feriekolonien.no) with Vercel.
+-   `apps/studio`: A [Sanity studio](https://sanity.io) that's deployed to [studio.feriekolonien.no](https://studio.feriekolonien.no) with Vercel.
+-   `ui`: a stub React component library not currently used in any of the apps.
+-   `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+-   `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/) 🔐
 
@@ -21,9 +21,9 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/) 🔐
 
 This turborepo has some additional tools already setup for you:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+-   [TypeScript](https://www.typescriptlang.org/) for static type checking
+-   [ESLint](https://eslint.org/) for code linting
+-   [Prettier](https://prettier.io) for code formatting
 
 ## Setup
 
@@ -58,9 +58,9 @@ Prettier and ESlint plugins installed.
 
 These tools can also be ran with `pnpm test` in each app. This will run:
 
-- `prettier --check`: To find code formatting issues.
-- `eslint`: To find unused variables and other ESLint issues.
-- `tsc --no-emit` To test TypeScript errors and module import issues.
+-   `prettier --check`: To find code formatting issues.
+-   `eslint`: To find unused variables and other ESLint issues.
+-   `tsc --no-emit` To test TypeScript errors and module import issues.
 
 **Commit style**
 
@@ -96,9 +96,9 @@ npx turbo link
 
 Learn more about the power of Turborepo:
 
-- [Pipelines](https://turborepo.org/docs/features/pipelines)
-- [Caching](https://turborepo.org/docs/features/caching)
-- [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/features/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+-   [Pipelines](https://turborepo.org/docs/features/pipelines)
+-   [Caching](https://turborepo.org/docs/features/caching)
+-   [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching)
+-   [Scoped Tasks](https://turborepo.org/docs/features/scopes)
+-   [Configuration Options](https://turborepo.org/docs/reference/configuration)
+-   [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
