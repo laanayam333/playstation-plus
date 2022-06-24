@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
+:root {
+  --brand-primary: #cf4037;
+  --brand-secondary: #d7807a;
+  --font-family-base: 'Fira Code';
+
+  --main-navigation-color: var(--brand-primary);
+  --main-navigation-color--inverted: color(
+    var(--main-navigation-color) contrast(80%)
+  );
+  --main-navigation-color--inverted-muted: color(
+    var(--main-navigation-color)
+      blend(var(--main-navigation-color--inverted) 70%)
+  );
+}
