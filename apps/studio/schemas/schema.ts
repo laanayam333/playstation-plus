@@ -6,7 +6,6 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 
 // Document types
-import developer from './documents/developer';
 import plan from './documents/plan';
 import game from './documents/game';
 
@@ -28,7 +27,6 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    developer,
     plan,
     game,
     price,
