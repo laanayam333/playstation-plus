@@ -8,6 +8,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 // Document types
 import plan from './documents/plan';
 import game from './documents/game';
+import contacts from './documents/contacts';
+import socials from './documents/socials';
 
 // Module types
 
@@ -30,6 +32,8 @@ export default createSchema({
     plan,
     game,
     price,
+    socials,
+    contacts,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     portableComplex,
