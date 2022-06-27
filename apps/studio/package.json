@@ -2,9 +2,9 @@
   "name": "studio",
   "private": true,
   "version": "1.0.0",
-  "description": "Repository for Feriekoloniens CMS (powered by Sanity.io)",
+  "description": "Repository for Playstation Plus CMS (powered by Sanity.io)",
   "main": "package.json",
-  "author": "Rikard Eide <rikardeide@gmail.com>",
+  "author": "Brother Sailor <brothersailorwebdev@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "sanity start",
