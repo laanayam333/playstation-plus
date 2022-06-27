@@ -28,7 +28,7 @@ export default {
       validation: (Rule) =>
         Rule.uri({
           scheme: ['tel'],
-        }).error('Must follow the format tel:1231231231'),
+        }).error('Must follow the format tel:689123123'),
     },
     {
       name: 'address',
