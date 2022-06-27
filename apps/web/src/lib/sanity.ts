@@ -1,5 +1,5 @@
-import { createImageUrlBuilder } from 'next-sanity';
-import { config } from './config';
+import createImageUrlBuilder from '@sanity/image-url';
+import { sanityClient } from '@lib/sanity.server';
 
 type ImageSizes = {
   aspectRatio: number;
@@ -12,7 +12,7 @@ type ImageSizes = {
 };
 
 const urlFor = (source: Sanity.ImageObject) =>
-  createImageUrlBuilder(config).image(source);
+  createImageUrlBuilder(sanityClient).image(source);
 
 export function getImageSizes(image: Sanity.ImageObject): ImageSizes {
   return {

@@ -61,6 +61,7 @@ importers:
     specifiers:
       '@sanity-codegen/types': ^1.0.0-alpha.13
       '@sanity/client': ^3.3.2
+      '@sanity/image-url': ^1.0.1
       '@tailwindcss/aspect-ratio': ^0.4.0
       '@tailwindcss/typography': ^0.5.2
       '@types/node': ^18.0.0
@@ -81,6 +82,7 @@ importers:
       typescript: ^4.7.4
     dependencies:
       '@sanity/client': 3.3.2
+      '@sanity/image-url': 1.0.1
       autoprefixer: 10.4.7_postcss@8.4.14
       next: 12.1.6_biqbaboplfbrettd7655fr4n2y
       next-sanity: 0.5.2_react@18.2.0
