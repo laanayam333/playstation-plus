@@ -24,9 +24,9 @@ export default {
       },
     },
     {
-      title: 'Release date',
       name: 'releaseDate',
-      type: 'date'
+      title: 'Release date',
+      type: 'date',
     },
     {
       name: 'image',
