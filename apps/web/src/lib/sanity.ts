@@ -1,5 +1,5 @@
 import createImageUrlBuilder from '@sanity/image-url';
-import { sanityClient } from '@lib/sanity.server';
+import { sanityClient } from '@/lib/sanity.server';
 
 type ImageSizes = {
   aspectRatio: number;
