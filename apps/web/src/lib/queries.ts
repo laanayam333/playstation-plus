@@ -4,6 +4,8 @@ const gameFields = groq`
 	"id": _id,
 	_updatedAt,
 	name,
+	"image": image.asset->url,
+	console
 `;
 
 // Queries

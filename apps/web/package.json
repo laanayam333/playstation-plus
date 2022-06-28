@@ -17,9 +17,12 @@
     "test": "pnpm prettier && pnpm eslint && pnpm ts"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.5",
+    "@heroicons/react": "^1.0.6",
     "@sanity/client": "^3.3.2",
     "@sanity/image-url": "^1.0.1",
     "autoprefixer": "^10.4.7",
+    "classnames": "^2.3.1",
     "next": "^12.1.6",
     "next-sanity": "^0.5.2",
     "postcss": "^8.4.14",

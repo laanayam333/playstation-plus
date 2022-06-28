@@ -1,5 +1,8 @@
 import createImageUrlBuilder from '@sanity/image-url';
+import imageUrlBuilder from '@sanity/image-url';
+
 import { sanityClient } from '@/lib/sanity.server';
+import { config } from '@/lib/config';
 
 type ImageSizes = {
   aspectRatio: number;
@@ -10,6 +13,11 @@ type ImageSizes = {
     thumbnail: string;
   };
 };
+
+export const builder = imageUrlBuilder(config);
+
+export const urlForImage = (source) =>
+  builder.image(source).auto('format').fit('max');
 
 const urlFor = (source: Sanity.ImageObject) =>
   createImageUrlBuilder(sanityClient).image(source);
