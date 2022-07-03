@@ -8,10 +8,10 @@ import { homePageQuery } from '@/lib/queries';
 function HomePage({ games }) {
   return (
     <section>
-      <ul className="grid grid-cols-4 gap-x-6 gap-y-12">
+      <ul className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
         {games.map((game) => (
           <li key={game.id}>
-            <div className="flex gap-x-4 mt-2">
+            <div className="grid grid-cols-4 mt-2">
               {game.console.map((elm, idx) => (
                 <div
                   key={idx}
@@ -19,7 +19,7 @@ function HomePage({ games }) {
                     elm === 'ps4'
                       ? 'bg-blue-500 text-white'
                       : 'bg-white-500 text-black border-2 border-black',
-                    'w-fit px-4 py-1 uppercase  font-bold',
+                    'px-1 text-center lg:px-2 py-0.5 lg:py-1.5 uppercase font-semibold text-xs lg:text-sm',
                   )}
                 >
                   {elm}

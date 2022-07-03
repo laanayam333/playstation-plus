@@ -9,34 +9,48 @@ class MyDocument extends Document {
 
           <link
             rel="preload"
-            href="/fonts/raleway-v22-latin-regular.woff2"
+            href="/fonts/PPNeueMachina-Ultralight.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/raleway-v22-latin-700.woff2"
+            href="/fonts/PPNeueMachina-Light.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/montserrat-v21-latin-regular.woff2"
+            href="/fonts/PPNeueMachina-Regular.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
-            href="/fonts/montserrat-v21-latin-600.woff2"
+            href="/fonts/PPNeueMachina-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/PPNeueMachina-Ultrabold.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/PPNeueMachina-Black.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
           />
 
-          <meta property="og:site_name" content="Trefoldighet Feriekoloni" />
+          <meta property="og:site_name" content="Playstation Plus Plans" />
 
           <meta
             property="og:image"
