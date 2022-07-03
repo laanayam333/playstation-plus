@@ -59,19 +59,12 @@ export default {
         },
       ],
     },
-    // // {
-    // //   name: 'bio',
-    // //   title: 'Bio',
-    // //   type: 'array',
-    // //   of: [
-    // //     {
-    // //       title: 'Block',
-    // //       type: 'block',
-    // //       styles: [{ title: 'Normal', value: 'normal' }],
-    // //       lists: [],
-    // //     },
-    // //   ],
-    // // },
+    {
+      name: 'plan',
+      title: 'Plan',
+      type: 'reference',
+      to: [{ type: 'plan' }],
+    },
   ],
   preview: {
     select: {
