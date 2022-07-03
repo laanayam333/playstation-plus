@@ -1,4 +1,5 @@
 export const console = [
+  { title: 'PSVR', value: 'psvr' },
   { title: 'PS5', value: 'ps5' },
   { title: 'PS4', value: 'ps4' },
   { title: 'PS3', value: 'ps3' },

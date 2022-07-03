@@ -26,17 +26,6 @@ export default {
       type: 'array',
       of: [{ type: 'price' }],
     },
-    {
-      name: 'games',
-      title: 'Games',
-      type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{ type: 'game' }],
-        },
-      ],
-    },
   ],
   preview: {
     select: {
