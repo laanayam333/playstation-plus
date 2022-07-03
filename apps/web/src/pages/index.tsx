@@ -8,18 +8,18 @@ import { homePageQuery } from '@/lib/queries';
 function HomePage({ games }) {
   return (
     <section>
-      <ul className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+      <ul className="grid grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4">
         {games.map((game) => (
           <li key={game.id}>
-            <div className="grid grid-cols-4 mt-2">
+            <div className="mt-2 grid grid-cols-4">
               {game.console.map((elm, idx) => (
                 <div
                   key={idx}
                   className={classNames(
                     elm === 'ps4'
                       ? 'bg-blue-500 text-white'
-                      : 'bg-white-500 text-black border-2 border-black',
-                    'px-1 text-center lg:px-2 py-0.5 lg:py-1.5 uppercase font-semibold text-xs lg:text-sm',
+                      : 'bg-white-500 border-2 border-black text-black',
+                    'px-1 py-0.5 text-center text-xs font-semibold uppercase lg:px-2 lg:py-1.5 lg:text-sm',
                   )}
                 >
                   {elm}
@@ -34,7 +34,7 @@ function HomePage({ games }) {
               height={4}
             />
             {game?.plan?.name && (
-              <h3 className="text-xs font-medium mt-2">PS+ {game.plan.name}</h3>
+              <h3 className="mt-2 text-xs font-medium">PS+ {game.plan.name}</h3>
             )}
             <h2 className="text-sm font-bold uppercase">{game.name}</h2>
           </li>

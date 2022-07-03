@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main className="py-6 px-6 lg:px-0 max-w-4xl mx-auto text-xs">
+      <main className="mx-auto max-w-4xl py-6 px-6 text-xs lg:px-0">
         {children}
       </main>
       <Footer />
